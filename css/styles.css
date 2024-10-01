@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  display: flex;
+  background: white;
+  width: 100%;
+  z-index: 100;
+  float: left;
+}
+nav ul {
+  overflow: hidden;
+  list-style: none;
+  margin-left: 20%;
+  background: white;
+}
+nav ul li {
+  float: left;
+  font-size: 15px;
+  transition: 0.3s;
+}
+nav ul li:hover {
+  /* background: #094355; */
+  /* padding: 10px 20px; */
+  font-size: large;
+}
+nav ul li a {
+  background: white;
+  display: block;
+  padding: 10px 20px;
+}
+
+.logoMarca {
+  display: flex;
+  justify-content: left;
+}
+
+.logoRedes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5%;
+  margin: 20px;
+  filter: grayscale();
+}
+
+/*# sourceMappingURL=styles.css.map */

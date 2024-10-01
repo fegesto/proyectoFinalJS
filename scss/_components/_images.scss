@@ -1,0 +1,13 @@
+.logoMarca{
+    display: flex;
+    justify-content: left;
+}
+
+.logoRedes{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 5%;
+    margin: 20px;
+    filter: #{"grayscale()"};
+}

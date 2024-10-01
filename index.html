@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/logo.jpg" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Artesanias PatryAppe</title>
 </head>
 <body>
     <header>
         <div id="logoHeader" ></div>
-            <a href="#"><img class="imgLogoProd" src="./images/logo.jpg" alt="Logo de Artsanias PatryAppe"> <!-- Logo de la empresa --></a>
+            <a href="#"><img class="logoMarca" src="./images/logo.jpg" alt="Logo de Artsanias PatryAppe"> <!-- Logo de la empresa --></a>
         </div>
     </header>
 
@@ -19,8 +20,27 @@
     </main>
 
     <footer>
-        <a href="https://www.instagram.com/artesanias.patry.appe/"><img src="./images/logo_ig.png" alt="Perfil instagram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100063574507555"><img src="./images/logo_fb.png" alt="Perfil instagram"></a>
+        <nav>
+            <ul class="footer__flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="./pages/quienSoy.html">Quien soy</a></li>
+                <li><a href="./pages/products/todosLosProductos.html">Productos</a></li>
+                <li><a href="./pages/contactame.html">Contactanos</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <a href="https://www.instagram.com/artesanias.patry.appe/"><img class="logoRedes" src="./images/logo_ig.png" alt="Perfil instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063574507555"><img class="logoRedes" src="./images/logo_fb.png" alt="Perfil instagram"></a>
+        </section>
+
+        <section class="copyright">
+            <p>Artesanias PatryAppe copyright 2024 - Buenos Aires, Argentina</p>
+        </section>
+
+        <section class="map-location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.106724384352!2d-58.644400525143716!3d-34.65200756004859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8aa7762bd43%3A0x3b271874eb632a7a!2sCastelar!5e0!3m2!1ses!2sar!4v1727706067282!5m2!1ses!2sar"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </footer>
 </body>
 </html>
