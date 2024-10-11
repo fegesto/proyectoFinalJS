@@ -24,38 +24,48 @@ footer{
             }
         }
 
-        .footer__flex{
-            background-color: $color-sections;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 10px 0;
-            margin: 0;
-        }
+    .footer_flex{
+        width: 100%;
+        background-color: $color-sections;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        margin: 0;
+    }
 
-        .copyright {
-            p{
-            background-color: $color-sections;
-            color: #c0c0c0;
-            width: 100%;
-            text-align: center;
-            font-size: small;
-            font-size: 10px;
-            margin: 0;
-            }
-        }
+    .footer_logos{
+        width: 100%;
+        margin-top: 5px;
+        background-color: $color-sections;
+        display: flex;
+        justify-content: center;
+    }
 
-        .map-location{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
 
-            iframe{
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 80%;
-            }
-
+    .copyright {
+        p{
+        background-color: $color-sections;
+        color: #c0c0c0;
+        width: 100%;
+        text-align: center;
+        font-size: small;
+        font-size: 10px;
+        margin: 0;
         }
     }
+
+    .map-location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        iframe{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 80%;
+        }
+
+    }
+}

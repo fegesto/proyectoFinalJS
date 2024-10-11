@@ -5,47 +5,74 @@
   font-family: "Nunito", sans-serif;
 }
 
-nav {
-  display: flex;
-  background: white;
-  width: 100%;
-  z-index: 100;
-  float: left;
-}
-nav ul {
-  overflow: hidden;
-  list-style: none;
-  margin-left: 20%;
-  background: white;
-}
-nav ul li {
-  float: left;
-  font-size: 15px;
-  transition: 0.3s;
-}
-nav ul li:hover {
-  /* background: #094355; */
-  /* padding: 10px 20px; */
-  font-size: large;
-}
-nav ul li a {
-  background: white;
-  display: block;
-  padding: 10px 20px;
-}
-
 .logoMarca {
   display: flex;
   justify-content: left;
+  width: 5%;
 }
 
 .logoRedes {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 5%;
-  margin: 20px;
+  width: 20px;
+  margin: 5px 20px 5px 20px;
   filter: grayscale();
+}
+
+footer {
+  clear: both;
+  background-color: white;
+  margin: 0;
+  min-height: 50vh;
+}
+footer ul {
+  overflow: hidden;
+  list-style: none;
+}
+footer ul li a {
+  background-color: white;
+  color: #c0c0c0;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: small;
+  transition: 0.3s;
+}
+footer ul li:hover {
+  font-weight: bolder;
+}
+footer .footer_flex {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  margin: 0;
+}
+footer .footer_logos {
+  width: 100%;
+  margin-top: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .copyright p {
+  background-color: white;
+  color: #c0c0c0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+  font-size: 10px;
+  margin: 0;
+}
+footer .map-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer .map-location iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
 }
 
 /*# sourceMappingURL=styles.css.map */
